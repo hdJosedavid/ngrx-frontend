@@ -35,8 +35,7 @@ button {
     outline: none;
 }
 
-app-ui-search,
-app-ui-filter,
-app-ui-block-item {
+app-ui-search, app-ui-filter, app-ui-block-item {
     /* border: solid 2px red; */
+    padding: auto;
 }

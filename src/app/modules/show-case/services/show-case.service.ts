@@ -14,64 +14,64 @@ export class ShowCaseService {
     //TODO: Aqui podemos hacer http.get('api...')
     const data = [
       {
-        name: "Pudgy Penguin #1",
+        name: "Character #1",
         price: 0.2,
-        image: "https://api.pudgypenguins.io/penguin/image/1"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #2",
+        name: "Character #2",
         price: 0.1,
-        image: "https://api.pudgypenguins.io/penguin/image/2"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #3",
+        name: "Character #3",
         price: 0.3,
-        image: "https://api.pudgypenguins.io/penguin/image/3"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #4",
+        name: "Character #4",
         price: 0.4,
-        image: "https://api.pudgypenguins.io/penguin/image/4"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #5",
+        name: "Character #5",
         price: 0.5,
-        image: "https://api.pudgypenguins.io/penguin/image/5"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #6",
+        name: "Character #6",
         price: 0.6,
-        image: "https://api.pudgypenguins.io/penguin/image/6"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #7",
+        name: "Character #7",
         price: 0.7,
-        image: "https://api.pudgypenguins.io/penguin/image/7"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #8",
+        name: "Character #8",
         price: 0.8,
-        image: "https://api.pudgypenguins.io/penguin/image/8"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #9",
+        name: "Character #9",
         price: 0.9,
-        image: "https://api.pudgypenguins.io/penguin/image/9"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #10",
+        name: "Character #10",
         price: 0.9,
-        image: "https://api.pudgypenguins.io/penguin/image/10"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #11",
+        name: "Character #11",
         price: 0.9,
-        image: "https://api.pudgypenguins.io/penguin/image/11"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
-        name: "Pudgy Penguin #12",
+        name: "Character #12",
         price: 0.9,
-        image: "https://api.pudgypenguins.io/penguin/image/12"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       }
     ]
 

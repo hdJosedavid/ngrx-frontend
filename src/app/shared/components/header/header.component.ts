@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemModel } from '@core/models/Item.interface';
+import { Store } from '@ngrx/store';
+import { addItem } from 'src/app/state/actions/items.actions';
 
 @Component({
   selector: 'app-header',
@@ -8,19 +10,20 @@ import { ItemModel } from '@core/models/Item.interface';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private store: Store
+  ) { }
 
-  ngOnInit(): void {
-    console.log('Calle 1');
-
-  }
+  ngOnInit(): void { }
 
   addItem(): void {
     const dataItem: ItemModel = {
-      name: 'pepe',
-      price: 1,
-      image: 'https://lh3.googleusercontent.com/0FzDWftLAKj7eb2zym0h8WhlS1w0fj-YE2SVOdogxyuE9xNPRhWG_8V0JN-TiH6C00x1BxHEB5tE7xbWmP4FaMZBY0hTgvhvJbQdtQ=w286'
+      name: 'Juanito',
+      price: 13,
+      image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/77.svg`
     }
+
+    this.store.dispatch(addItem({item: dataItem}));
   }
 
 }
