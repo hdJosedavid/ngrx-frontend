@@ -16,62 +16,62 @@ export class ShowCaseService {
       {
         name: "Character #1",
         price: 0.2,
-        image: "https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #2",
         price: 0.1,
-        image: "https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #3",
         price: 0.3,
-        image: "https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #4",
         price: 0.4,
-        image: "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #5",
         price: 0.5,
-        image: "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #6",
         price: 0.6,
-        image: "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #7",
         price: 0.7,
-        image: "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #8",
         price: 0.8,
-        image: "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #9",
         price: 0.9,
-        image: "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #10",
         price: 0.9,
-        image: "https://rickandmortyapi.com/api/character/avatar/110.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #11",
         price: 0.9,
-        image: "https://rickandmortyapi.com/api/character/avatar/111.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       },
       {
         name: "Character #12",
         price: 0.9,
-        image: "https://rickandmortyapi.com/api/character/avatar/112.jpeg"
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${Math.floor(Math.random() * 100)}.svg`
       }
     ]
 

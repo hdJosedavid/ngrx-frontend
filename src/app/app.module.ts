@@ -6,6 +6,13 @@ import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
+import { EffectsModule } from '@ngrx/effects';
+import { StoreRouterConnectingModule } from '@ngrx/router-store';
+import { EntityDataModule } from '@ngrx/data';
+import { entityConfig } from './entity-metadata';
+import { ROOT_REDUCERS } from "./state/app.state";
+import { ItemsEffects } from './state/effects/items.effects';
+import { itemsReducer } from './state/reducers/items.reducers';
 
 
 
@@ -17,8 +24,11 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({}, {}),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production })
+    StoreModule.forRoot(ROOT_REDUCERS),
+    StoreDevtoolsModule.instrument({ name: 'TEST' }),
+    EffectsModule.forRoot([ItemsEffects]),
+    StoreRouterConnectingModule.forRoot(),
+    EntityDataModule.forRoot(entityConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
