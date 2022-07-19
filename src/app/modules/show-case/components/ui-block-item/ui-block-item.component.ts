@@ -24,5 +24,4 @@ export class UiBlockItemComponent implements OnInit {
     console.log(this.items$)
   }
 
-
 }
