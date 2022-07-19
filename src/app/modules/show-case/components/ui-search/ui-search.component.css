@@ -1,14 +1,16 @@
 .ui-search {
     padding: .5rem 1rem;
+    color: #000
 }
 
 .form-search {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .ui-search .input-search {
-    width: 100%;
+    width: 20%;
     background-color: var(--color-3);
     border-radius: var(--border-radius);
     height: 50px;

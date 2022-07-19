@@ -1,9 +1,10 @@
 .ui-item {
     cursor: pointer;
-    background-color: var(--color-1);
+    background-color: linear-gradient(145deg, #e6e6e6, var(--color-1));
     border-radius: var(--border-radius);
     width: 275px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 16px 16px 41px #b8b8b8,
+    -16px -16px 41px #ffffff;
     padding: 0.2rem;
 }
 

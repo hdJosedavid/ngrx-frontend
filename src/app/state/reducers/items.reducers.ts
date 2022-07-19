@@ -1,5 +1,5 @@
 import { ItemModel } from '@core/models/Item.interface';
-import { createReducer, on, props } from '@ngrx/store';
+import { createReducer, on } from '@ngrx/store';
 import { addItem, retreviedItemList } from '../actions/items.actions';
 
 export const initialState: ItemModel[] = [];

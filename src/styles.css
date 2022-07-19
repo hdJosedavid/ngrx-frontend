@@ -3,12 +3,13 @@
 :root {
     --font-family-1: 'Poppins', sans-serif;
     --color-1: white;
-    --color-2: #FAFBFD;
-    --color-3: #4579F6;
-    --color-4: #9E9CA8;
-    --color-5: #F5F6F8;
-    --color-6: #434050;
-    --border-radius: 15px;
+    --color-2: #E6E5CF;
+    --color-3: #CFDDE6;
+    --color-4: #998A8A;
+    --color-5: #e6e6e6;
+    --color-6: #666666;
+    --color-7: #8A9399;
+    --border-radius: 40px;
     --font-size-1: 1rem;
     --font-size-2: 1.2rem;
     --font-size-3: .9rem;
@@ -23,7 +24,7 @@ body {
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, .6);
+    color: var(--color-7);
 }
 
 input,
