@@ -1,6 +1,5 @@
 
-import { Component, Input, OnInit } from '@angular/core';
-import { ShowCaseService } from '@modules/show-case/services/show-case.service';
+import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { AppState } from 'src/app/state/app.state';
@@ -21,7 +20,6 @@ export class UiBlockItemComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    // this.showCase.getDataApi().subscribe((res: any) => { this.listData = res})
     this.items$ = this.store.select(selectItems);
     console.log(this.items$)
   }

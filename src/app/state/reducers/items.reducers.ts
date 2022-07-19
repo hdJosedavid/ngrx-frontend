@@ -13,10 +13,3 @@ export const itemsReducer = createReducer(
     return [...oldState, ...items]
   })
 );
-
-  // on(loadItems, (state) => {
-  //   return {...state, loading: true}
-  // }),
-  // on(loadedItems, (state, {items}) => {
-  //   return {...state, loading: false, items}
-  // }),
