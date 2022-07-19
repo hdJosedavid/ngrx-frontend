@@ -3,7 +3,7 @@ import { ItemModel } from '@core/models/Item.interface';
 import { ShowCaseService } from '@modules/show-case/services/show-case.service';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
-import { retreviedItemList } from "../../../../state/actions/items.actions";
+import { retreviedItemList } from "@state/actions/items.actions";
 
 @Component({
   selector: 'app-show-case-page',
@@ -26,7 +26,6 @@ export class ShowCasePageComponent implements OnInit {
   }
 
   loadData(): void {
-    // this.store.dispatch(loadItems());
     this.showCaseService.getDataApi()
       .subscribe((response: ItemModel[]) => {
         console.log('___', response);

@@ -7,18 +7,18 @@ import { map, mergeMap, catchError } from 'rxjs/operators';
 @Injectable()
 export class ItemsEffects {
 
-    loadItems$ = createEffect(() => this.actions$.pipe(
-        ofType('[Item List] Load items'),
-        mergeMap(() => this.showCaseService.getDataApi()//TODO Retorna la data [...]
-            .pipe(
-                map(items => ({ type: '[Item List] Loaded success', items })),
-                catchError(() => EMPTY)
-            ))
-    )
-    );
+  loadItems$ = createEffect(() => this.actions$.pipe(
+    ofType('[Item List] Load items'),
+    mergeMap(() => this.showCaseService.getDataApi()//TODO Retorna la data [...]
+      .pipe(
+        map(items => ({ type: '[Item List] Loaded success', items })),
+        catchError(() => EMPTY)
+      ))
+  )
+  );
 
-    constructor(
-        private actions$: Actions,
-        private showCaseService: ShowCaseService
-    ) { }
+  constructor(
+    private actions$: Actions,
+    private showCaseService: ShowCaseService
+  ) { }
 }
